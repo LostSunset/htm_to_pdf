@@ -1,6 +1,6 @@
 [project]
 name = "htm-to-pdf"
-version = "0.1.0"
+version = "0.1.1"
 description = "HTML 轉 PDF 工具 — 支援 Google 簡報完整背景渲染"
 readme = "README.md"
 license = "MIT"
