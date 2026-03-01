@@ -86,4 +86,10 @@ python htm_to_pdf.py "檔案.html" -l
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=LostSunset/htm_to_pdf&type=Date)](https://star-history.com/#LostSunset/htm_to_pdf&Date)
+<a href="https://star-history.com/#LostSunset/htm_to_pdf&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=LostSunset/htm_to_pdf&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=LostSunset/htm_to_pdf&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=LostSunset/htm_to_pdf&type=Date" />
+ </picture>
+</a>
