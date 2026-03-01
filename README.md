@@ -27,6 +27,24 @@ uv run playwright install chromium
 
 ## 使用方式
 
+### Step 1：取得 Google 簡報的 HTML
+
+當 Google 簡報被設為「僅供檢視」無法下載時，可以透過修改網址來取得完整 HTML：
+
+1. 開啟簡報，網址通常為：
+   ```
+   https://docs.google.com/presentation/d/XXXXXXX/preview?slide=iYYYYYY
+   ```
+
+2. 將網址改為 `htmlpresent`：
+   ```
+   https://docs.google.com/presentation/d/XXXXXXX/htmlpresent
+   ```
+
+3. 在瀏覽器按 `Ctrl+S`（另存新檔），選擇「**網頁，完整**」儲存為 `.html` 檔案
+
+### Step 2：轉換為 PDF
+
 ```bash
 # 基本用法 — 輸出同名 PDF
 python htm_to_pdf.py "檔案.html"
