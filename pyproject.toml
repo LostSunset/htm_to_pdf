@@ -1,0 +1,24 @@
+[project]
+name = "htm-to-pdf"
+version = "0.1.0"
+description = "HTML 轉 PDF 工具 — 支援 Google 簡報完整背景渲染"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.40",
+    "Pillow>=10.0",
+]
+
+[project.scripts]
+htm-to-pdf = "htm_to_pdf:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.ruff.format]
+quote-style = "double"
